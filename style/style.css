@@ -1,0 +1,70 @@
+body {
+    margin: 35px;
+}
+/* Added style for the nav bar */
+.nav-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 15px;
+    font-size: 1rem;
+}
+/* Centered the header to the page */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Changed the header's color */
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(red, rgb(29, 164, 52)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5px;
+  }
+
+
+  div h3 {
+      color: red;
+  }
+/* Changed the height and width of the picture */
+  .grumpy-cat-img {
+    width: 50%;
+    height: 500px;
+    border: black solid 2px;
+  }
+/* Container for the img */
+  .grumpy-cat-container{
+      /* outline: red solid 2px; */
+      display: flex;
+      justify-content: center;
+  }
+
+.projects-jobs {
+margin: 0 50px;
+}
+
+ul {
+    margin: 30px;
+}
+
+.table-contents {
+    margin: 20px;
+    font-size: 1rem;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
